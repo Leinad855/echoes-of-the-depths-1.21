@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "echoes-of-the-depths",
+	"version": "${version}",
+	"name": "Echoes of the Depths",
+	"description": "A mod that adds a brand new dimension(Echo Depths) with new mobs, biomes and bosses",
+	"authors": [
+		"Leinad"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/echoes-of-the-depths/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.leinad.echoesofthedepths.EchoesOfTheDepths"
+		],
+		"fabric-datagen": [
+			"net.leinad.echoesofthedepths.EchoesOfTheDepthsDataGenerator"
+		],
+		"client": [
+			"net.leinad.echoesofthedepths.EchoesOfTheDepthClient"
+		]
+	},
+	"mixins": [
+		"echoes-of-the-depths.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
