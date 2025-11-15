@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "echoes-of-the-depths:block/bone_stone_top",
+    "side": "echoes-of-the-depths:block/bone_stone_side"
+  }
+}

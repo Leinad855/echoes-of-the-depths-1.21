@@ -1,3 +1,6 @@
 {
-  "item.echoes-of-the-depths.resonite": "Resonite"
+  "item.echoes-of-the-depths.resonite": "Resonite",
+
+  "block.echoes-of-the-depths.resonite_ore": "Resonite Ore",
+  "block.echoes-of-the-depths.bone_stone": "Bone Stone"
 }

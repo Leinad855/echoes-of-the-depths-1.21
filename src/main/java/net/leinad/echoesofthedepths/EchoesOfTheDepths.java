@@ -3,6 +3,7 @@ package net.leinad.echoesofthedepths;
 import net.fabricmc.api.ModInitializer;
 
 import net.leinad.echoesofthedepths.Item.ModItems;
+import net.leinad.echoesofthedepths.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,5 +24,6 @@ public class EchoesOfTheDepths implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
