@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "resonite",
+  "ingredient": {
+    "item": "echoes-of-the-depths:resonite"
+  },
+  "result": {
+    "id": "echoes-of-the-depths:resonite"
+  }
+}

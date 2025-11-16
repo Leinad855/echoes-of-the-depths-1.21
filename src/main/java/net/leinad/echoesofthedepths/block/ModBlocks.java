@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block RESONITE_ORE = registerBlock("resonite_ore",
-            new Block(AbstractBlock.Settings.create().strength(4.5F).requiresTool().sounds(BlockSoundGroup.DEEPSLATE).luminance(state -> 6)));
+            new Block(AbstractBlock.Settings.create().strength(20.0F).requiresTool().sounds(BlockSoundGroup.SCULK_CATALYST).luminance(state -> 6)));
     public static final Block BONE_STONE = registerBlock("bone_stone",
             new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.BONE)));
 
