@@ -22,5 +22,10 @@ public class ModBlocksTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.RESONITE_ORE);
 
+        getOrCreateTagBuilder(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
+                .add(ModBlocks.RESONITE_ORE);
+
+
+
     }
 }

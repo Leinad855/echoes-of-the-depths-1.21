@@ -2,10 +2,12 @@ package net.leinad.echoesofthedepths;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.leinad.echoesofthedepths.datagen.ModBlockLootTableProvider;
-import net.leinad.echoesofthedepths.datagen.ModBlocksTagProvider;
-import net.leinad.echoesofthedepths.datagen.ModModelProvider;
-import net.leinad.echoesofthedepths.datagen.ModRecipeProvider;
+import net.leinad.echoesofthedepths.datagen.*;
+import net.leinad.echoesofthedepths.world.ModConfiguredFeatures;
+import net.leinad.echoesofthedepths.world.ModPlacedFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 
 public class EchoesOfTheDepthsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,5 +18,12 @@ public class EchoesOfTheDepthsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModBlocksTagProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder){
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }
