@@ -16,8 +16,6 @@ public class ModBlocks {
 
     public static final Block RESONITE_ORE = registerBlock("resonite_ore",
             new Block(AbstractBlock.Settings.create().strength(20.0F).requiresTool().sounds(BlockSoundGroup.SCULK_CATALYST).luminance(state -> 6)));
-    public static final Block BONE_STONE = registerBlock("bone_stone",
-            new Block(AbstractBlock.Settings.create().strength(4.5f).requiresTool().sounds(BlockSoundGroup.BONE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -32,7 +30,6 @@ public class ModBlocks {
     public static void registerModBlocks(){
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(RESONITE_ORE);
-            entries.add(BONE_STONE);
         });
     }
 }

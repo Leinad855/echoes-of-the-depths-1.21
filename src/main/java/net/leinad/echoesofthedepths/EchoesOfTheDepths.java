@@ -2,6 +2,7 @@ package net.leinad.echoesofthedepths;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.leinad.echoesofthedepths.Item.ModItemGroups;
 import net.leinad.echoesofthedepths.Item.ModItems;
 import net.leinad.echoesofthedepths.block.ModBlocks;
 import net.leinad.echoesofthedepths.world.gen.ModWorldGeneration;
@@ -16,6 +17,7 @@ public class EchoesOfTheDepths implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -24,9 +26,13 @@ public class EchoesOfTheDepths implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 		ModWorldGeneration.generateModWorldGen();
 	}
+
+
 }

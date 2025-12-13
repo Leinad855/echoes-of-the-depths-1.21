@@ -1,6 +1,11 @@
 {
   "item.echoes-of-the-depths.resonite": "Resonite",
 
+  "item.echoes-of-the-depths.resonite_sword": "Resonite Sword",
+  "item.echoes-of-the-depths.resonite_pickaxe": "Resonite Pickaxe",
+
   "block.echoes-of-the-depths.resonite_ore": "Resonite Ore",
-  "block.echoes-of-the-depths.bone_stone": "Bone Stone"
+
+  "itemgroup.echoes-of-the-depths.echoes-of-the-depths_items": "Echoes of the Depths Items",
+  "itemgroup.echoes-of-the-depths.echoes-of-the-depths_blocks": "Echoes of the Depths Blocks"
 }

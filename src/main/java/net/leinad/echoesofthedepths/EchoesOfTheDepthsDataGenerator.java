@@ -6,7 +6,6 @@ import net.leinad.echoesofthedepths.datagen.*;
 import net.leinad.echoesofthedepths.world.ModConfiguredFeatures;
 import net.leinad.echoesofthedepths.world.ModPlacedFeatures;
 import net.minecraft.registry.RegistryBuilder;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 
 public class EchoesOfTheDepthsDataGenerator implements DataGeneratorEntrypoint {

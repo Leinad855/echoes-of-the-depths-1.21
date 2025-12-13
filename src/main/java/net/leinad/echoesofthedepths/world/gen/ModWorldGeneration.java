@@ -10,7 +10,5 @@ public class ModWorldGeneration {
     public static void generateModWorldGen(){
         ModOreGeneration.generateOres();
 
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DEEP_DARK), GenerationStep.Feature.UNDERGROUND_DECORATION,
-                ModPlacedFeatures.BONE_STONE_PATCH_PLACED_KEY);
     }
 }

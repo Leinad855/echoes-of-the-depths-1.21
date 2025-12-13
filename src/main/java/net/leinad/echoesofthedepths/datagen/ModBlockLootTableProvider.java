@@ -15,9 +15,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.BONE_STONE);
-
         addDrop(ModBlocks.RESONITE_ORE, ModItems.RESONITE);
         addDropWithSilkTouch(ModBlocks.RESONITE_ORE);
+
+
     }
 }
