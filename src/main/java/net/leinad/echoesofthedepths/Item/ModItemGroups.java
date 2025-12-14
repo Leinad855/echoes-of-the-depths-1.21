@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.echoes-of-the-depths.echoes-of-the-depths_items"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.RESONITE);
+                      entries.add(ModItems.BONE_UPGRADE_TEMPLATE);
                       entries.add(ModItems.RESONITE_SWORD);
                       entries.add(ModItems.RESONITE_PICKAXE);
                     })

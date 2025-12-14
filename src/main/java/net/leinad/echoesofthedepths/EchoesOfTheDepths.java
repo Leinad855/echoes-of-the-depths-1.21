@@ -2,9 +2,12 @@ package net.leinad.echoesofthedepths;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
 import net.leinad.echoesofthedepths.Item.ModItemGroups;
 import net.leinad.echoesofthedepths.Item.ModItems;
 import net.leinad.echoesofthedepths.block.ModBlocks;
+import net.leinad.echoesofthedepths.component.ModComponents;
+import net.leinad.echoesofthedepths.player.PlayerVibrationListener;
 import net.leinad.echoesofthedepths.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,6 +33,12 @@ public class EchoesOfTheDepths implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ServerWorldEvents.LOAD.register((server, world) -> {
+			world.get.register(
+					new PlayerVibrationListener(world)
+			);
+		});
 
 		ModWorldGeneration.generateModWorldGen();
 	}

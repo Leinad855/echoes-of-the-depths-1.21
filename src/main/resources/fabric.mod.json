@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"net.leinad.echoesofthedepths.EchoesOfTheDepthClient"
+		],
+		"cardinal-components-entity": [
+			"net.leinad.echoesofthedepths.component.ModComponents"
 		]
 	},
 	"mixins": [
@@ -36,5 +39,11 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+
+	"custom": {
+		"cardinal-components": [
+			"echoes-of-the-depths:vibration"
+		]
 	}
 }

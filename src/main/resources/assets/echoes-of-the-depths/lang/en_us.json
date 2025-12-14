@@ -1,11 +1,20 @@
 {
+  "block.echoes-of-the-depths.resonite_ore": "Resonite Ore",
+
+
+  "item.echoes-of-the-depths.bone_upgrade_template": "Bone Upgrade Template",
   "item.echoes-of-the-depths.resonite": "Resonite",
 
   "item.echoes-of-the-depths.resonite_sword": "Resonite Sword",
   "item.echoes-of-the-depths.resonite_pickaxe": "Resonite Pickaxe",
 
-  "block.echoes-of-the-depths.resonite_ore": "Resonite Ore",
+  "item.echoes-of-the-depths.smithing_template.bone_upgrade.additions_slot_description": "Add Resonite",
+  "item.echoes-of-the-depths.smithing_template.bone_upgrade.applies_to": "Diamond Equipment",
+  "item.echoes-of-the-depths.smithing_template.bone_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
+  "item.echoes-of-the-depths.smithing_template.bone_upgrade.ingredients": "Resonite",
 
   "itemgroup.echoes-of-the-depths.echoes-of-the-depths_items": "Echoes of the Depths Items",
-  "itemgroup.echoes-of-the-depths.echoes-of-the-depths_blocks": "Echoes of the Depths Blocks"
+  "itemgroup.echoes-of-the-depths.echoes-of-the-depths_blocks": "Echoes of the Depths Blocks",
+
+  "upgrade.echoes-of-the-depths.bone_upgrade": "Bone Upgrade"
 }
