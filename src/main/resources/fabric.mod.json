@@ -23,9 +23,6 @@
 		],
 		"client": [
 			"net.leinad.echoesofthedepths.EchoesOfTheDepthClient"
-		],
-		"cardinal-components-entity": [
-			"net.leinad.echoesofthedepths.component.ModComponents"
 		]
 	},
 	"mixins": [
