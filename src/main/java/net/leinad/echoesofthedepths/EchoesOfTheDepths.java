@@ -3,10 +3,12 @@ package net.leinad.echoesofthedepths;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.leinad.echoesofthedepths.Item.ModItemGroups;
 import net.leinad.echoesofthedepths.Item.ModItems;
 import net.leinad.echoesofthedepths.block.ModBlocks;
 import net.leinad.echoesofthedepths.component.ModDataComponentsType;
+import net.leinad.echoesofthedepths.util.ResonitePickaxeAbilityEvent;
 import net.leinad.echoesofthedepths.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,6 +36,8 @@ public class EchoesOfTheDepths implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModDataComponentsType.registerDataComponentTypes();
+
+		PlayerBlockBreakEvents.BEFORE.register(new ResonitePickaxeAbilityEvent());
 
 		ModWorldGeneration.generateModWorldGen();
 	}

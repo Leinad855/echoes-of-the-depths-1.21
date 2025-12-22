@@ -32,7 +32,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import java.util.Map;
 
-public class ResoniteSwordItem extends SwordItem {
+public class ResoniteSwordItem extends SwordItem{
 
     private static final int STORE_SOULS_COOLDOWN = 12;
     private static final int MAX_CHARGE = 10;
@@ -124,8 +124,8 @@ public class ResoniteSwordItem extends SwordItem {
             Vec3d handOffset = rightHanded ? right.multiply(0.3) : right.multiply(-0.3);
 
             Vec3d particlePos = eyePos
-                    .add(forward.multiply(0.6))  // forward
-                    .add(handOffset)              // sideways
+                    .add(forward.multiply(0.6))  
+                    .add(handOffset)
                     .add(0, -0.4, 0);
 
             if (used % 5 == 0) {
