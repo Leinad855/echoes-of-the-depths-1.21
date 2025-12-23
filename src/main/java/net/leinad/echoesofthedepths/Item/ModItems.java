@@ -2,6 +2,7 @@ package net.leinad.echoesofthedepths.Item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.leinad.echoesofthedepths.EchoesOfTheDepths;
+import net.leinad.echoesofthedepths.Item.custom.ResoniteAxeItem;
 import net.leinad.echoesofthedepths.Item.custom.ResonitePickaxeItem;
 import net.leinad.echoesofthedepths.Item.custom.ResoniteSwordItem;
 import net.minecraft.item.*;
@@ -44,7 +45,10 @@ public class ModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RESONITE, 3, -2.4f))));
     public static final Item RESONITE_PICKAXE = registerItem("resonite_pickaxe",
             new ResonitePickaxeItem(ModToolMaterials.RESONITE, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.RESONITE, 1, -2.8f))));
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RESONITE, 1, -2.8f))));
+    public static final Item RESONITE_AXE = registerItem("resonite_axe",
+            new ResoniteAxeItem(ModToolMaterials.RESONITE, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RESONITE, 5, -3.0F))));
 
 
     private static Item registerItem(String name, Item item){

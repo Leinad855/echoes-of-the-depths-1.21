@@ -23,5 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RESONITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BONE_UPGRADE_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RESONITE_AXE, Models.HANDHELD);
     }
 }

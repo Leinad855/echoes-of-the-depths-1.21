@@ -1,6 +1,7 @@
-// 1.21	2025-12-22T16:04:44.9379823	Echoes of the Depths/Model Definitions
+// 1.21	2025-12-23T15:41:42.4427105	Echoes of the Depths/Model Definitions
 a315dd2ff5f2998733b67f1aba3fe7f2bef0fa31 assets\echoes-of-the-depths\models\item\resonite.json
 5d1810f0201b72618e631f608c899e0c0b8e9e7f assets\echoes-of-the-depths\models\block\resonite_ore.json
+81eb4a6e19b5817f1b19ef44b7bc7f987e1dbb19 assets\echoes-of-the-depths\models\item\resonite_axe.json
 0863039821de0229b5030148561a12684fe0fe9c assets\echoes-of-the-depths\models\item\resonite_ore.json
 ea98eb25255dff56de6ec0c96874b440f120236b assets\echoes-of-the-depths\blockstates\resonite_ore.json
 5560889e0047dac9df748a11119c018ef6d7bdc0 assets\echoes-of-the-depths\models\item\bone_upgrade_template.json

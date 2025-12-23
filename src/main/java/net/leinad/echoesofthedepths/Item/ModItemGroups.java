@@ -20,6 +20,7 @@ public class ModItemGroups {
                       entries.add(ModItems.BONE_UPGRADE_TEMPLATE);
                       entries.add(ModItems.RESONITE_SWORD);
                       entries.add(ModItems.RESONITE_PICKAXE);
+                      entries.add(ModItems.RESONITE_AXE);
                     })
                     .build());
 

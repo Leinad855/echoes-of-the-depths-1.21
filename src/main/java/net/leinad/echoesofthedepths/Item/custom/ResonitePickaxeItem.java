@@ -23,12 +23,12 @@ import net.minecraft.world.World;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ResonitePickaxeItem extends MiningToolItem {
+public class ResonitePickaxeItem extends PickaxeItem {
 
     public static final int MAX_CHARGE = 20;
 
     public ResonitePickaxeItem(ToolMaterial material, Settings settings) {
-        super(material, BlockTags.PICKAXE_MINEABLE, settings);
+        super(material, settings);
     }
 
     public static List<BlockPos> getBlocksToBeDestroyed(int range, BlockPos initialBlockPos, ServerPlayerEntity player) {
