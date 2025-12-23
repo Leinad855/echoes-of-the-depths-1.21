@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "echoes-of-the-depths:item/resonite_pickaxe_charged"
+  }
+}

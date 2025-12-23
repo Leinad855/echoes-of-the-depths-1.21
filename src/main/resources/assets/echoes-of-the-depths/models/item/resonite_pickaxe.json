@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "echoes-of-the-depths:item/resonite_pickaxe"
+  },
+  "overrides": [
+  {
+    "predicate": {
+      "echoes-of-the-depths:charged": 1
+    },
+    "model": "echoes-of-the-depths:item/resonite_pickaxe_charged"
+  }
+]
+}
