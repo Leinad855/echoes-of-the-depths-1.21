@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "echoes-of-the-depths:resonite"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "echoes-of-the-depths:resonite_axe"
+  },
+  "template": {
+    "item": "echoes-of-the-depths:bone_upgrade_template"
+  }
+}
