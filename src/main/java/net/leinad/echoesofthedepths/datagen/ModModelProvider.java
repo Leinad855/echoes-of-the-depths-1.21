@@ -17,11 +17,14 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RESONITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SCULK_FUNGUS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RESONITE_CRYSTAL);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RESONITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BONE_UPGRADE_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RESONITE_SHOVEL, Models.HANDHELD);
     }
 }

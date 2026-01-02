@@ -64,6 +64,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         EchoesOfTheDepths.MOD_ID,
                         "resonite_axe_smithing"
                 ));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.BONE_UPGRADE_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SHOVEL),
+                        Ingredient.ofItems(ModItems.RESONITE),
+                        RecipeCategory.MISC,
+                        ModItems.RESONITE_SHOVEL)
+                .criterion("has_bone_stone",
+                        conditionsFromItem(ModItems.BONE_UPGRADE_TEMPLATE))
+                .offerTo(exporter, Identifier.of(
+                        EchoesOfTheDepths.MOD_ID,
+                        "resonite_shovel_smithing"
+                ));
     }
 
 

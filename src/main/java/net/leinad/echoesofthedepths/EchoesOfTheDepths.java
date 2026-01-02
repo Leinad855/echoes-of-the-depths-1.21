@@ -10,6 +10,7 @@ import net.leinad.echoesofthedepths.block.ModBlocks;
 import net.leinad.echoesofthedepths.component.ModDataComponentsType;
 import net.leinad.echoesofthedepths.util.ResoniteAxeAbilityEvent;
 import net.leinad.echoesofthedepths.util.ResonitePickaxeAbilityEvent;
+import net.leinad.echoesofthedepths.util.ResoniteShovelAbilityEvent;
 import net.leinad.echoesofthedepths.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,6 +41,7 @@ public class EchoesOfTheDepths implements ModInitializer {
 
 		PlayerBlockBreakEvents.BEFORE.register(new ResonitePickaxeAbilityEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new ResoniteAxeAbilityEvent());
+		PlayerBlockBreakEvents.BEFORE.register(new ResoniteShovelAbilityEvent());
 
 		ModWorldGeneration.generateModWorldGen();
 	}

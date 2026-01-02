@@ -22,6 +22,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RESONITE_ORE, ModItems.RESONITE);
         addDropWithSilkTouch(ModBlocks.RESONITE_ORE);
 
+        addDropWithSilkTouch(ModBlocks.SCULK_FUNGUS);
 
     }
 }

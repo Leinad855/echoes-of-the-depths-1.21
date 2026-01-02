@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.leinad.echoesofthedepths.EchoesOfTheDepths;
 import net.leinad.echoesofthedepths.Item.custom.ResoniteAxeItem;
 import net.leinad.echoesofthedepths.Item.custom.ResonitePickaxeItem;
+import net.leinad.echoesofthedepths.Item.custom.ResoniteShovelItem;
 import net.leinad.echoesofthedepths.Item.custom.ResoniteSwordItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -37,7 +38,7 @@ public class ModItems {
                     Text.translatable(
                             Util.createTranslationKey("item", Identifier.of(EchoesOfTheDepths.MOD_ID, "smithing_template.bone_upgrade.additions_slot_description"))
                     ),
-                    List.of(Identifier.ofVanilla("item/empty_slot_sword"), Identifier.ofVanilla("item/empty_slot_pickaxe")),
+                    List.of(Identifier.ofVanilla("item/empty_slot_sword"), Identifier.ofVanilla("item/empty_slot_pickaxe"), Identifier.ofVanilla("item/empty_slot_axe"), Identifier.ofVanilla("item/empty_slot_shovel")),
                     List.of(Identifier.ofVanilla("item/empty_slot_lapis_lazuli")))
             );
     public static final Item RESONITE_SWORD = registerItem("resonite_sword",
@@ -49,6 +50,9 @@ public class ModItems {
     public static final Item RESONITE_AXE = registerItem("resonite_axe",
             new ResoniteAxeItem(ModToolMaterials.RESONITE, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.RESONITE, 5, -3.0F))));
+    public static final Item RESONITE_SHOVEL = registerItem("resonite_shovel",
+            new ResoniteShovelItem(ModToolMaterials.RESONITE, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.RESONITE, 1.5f, -3.0F))));
 
 
     private static Item registerItem(String name, Item item){

@@ -21,6 +21,7 @@ public class ModItemGroups {
                       entries.add(ModItems.RESONITE_SWORD);
                       entries.add(ModItems.RESONITE_PICKAXE);
                       entries.add(ModItems.RESONITE_AXE);
+                      entries.add(ModItems.RESONITE_SHOVEL);
                     })
                     .build());
 
@@ -30,6 +31,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.echoes-of-the-depths.echoes-of-the-depths_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RESONITE_ORE);
+                        entries.add(ModBlocks.SCULK_FUNGUS);
+                        entries.add(ModBlocks.RESONITE_CRYSTAL);
                     })
                     .build());
 

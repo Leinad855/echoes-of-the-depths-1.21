@@ -16,6 +16,10 @@ public class ModBlocks {
 
     public static final Block RESONITE_ORE = registerBlock("resonite_ore",
             new Block(AbstractBlock.Settings.create().strength(20.0F).requiresTool().sounds(BlockSoundGroup.SCULK_CATALYST).luminance(state -> 6)));
+    public static final Block SCULK_FUNGUS = registerBlock("sculk_fungus_block",
+            new Block(AbstractBlock.Settings.create().strength(0.2f).sounds(BlockSoundGroup.SCULK).luminance(state -> 5)));
+    public static final Block RESONITE_CRYSTAL = registerBlock("resonite_crystal",
+            new Block(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.SCULK_CATALYST).luminance(state -> 12).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

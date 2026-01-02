@@ -111,7 +111,7 @@ public class ResonitePickaxeItem extends PickaxeItem {
 
     @Override
     public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
-        if (stack.get(ModDataComponentsType.CHARGE) != MAX_CHARGE) {
+        if (stack.get(ModDataComponentsType.CHARGE) != MAX_CHARGE && state.isIn(BlockTags.PICKAXE_MINEABLE)) {
             stack.set(ModDataComponentsType.CHARGE, stack.get(ModDataComponentsType.CHARGE) + 1);
         }
         return super.postMine(stack, world, state, pos, miner);

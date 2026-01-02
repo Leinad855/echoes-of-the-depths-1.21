@@ -1,10 +1,12 @@
-// 1.21	2025-12-23T15:41:42.4437349	Echoes of the Depths/Recipes
+// 1.21	2025-12-24T12:38:48.9460594	Echoes of the Depths/Recipes
 4d6a718a762222fa813c821eeaad01720d956acc data\echoes-of-the-depths\recipe\resonite_axe_smithing.json
 f817779fc31f4a8732a0af3743412617ae19e545 data\echoes-of-the-depths\advancement\recipes\misc\resonite_from_smelting_resonite.json
 bcd3f17a6d66d4e156905d6cc25d8078d0184c4f data\echoes-of-the-depths\recipe\resonite_from_smelting_resonite.json
 767212359f04833fcb3aea9c1b2be56f7f4d4a8e data\echoes-of-the-depths\advancement\recipes\misc\resonite_pickaxe_smithing.json
+aac9674bb95a9a62d332b94dd497b60b7df34ff3 data\echoes-of-the-depths\recipe\resonite_shovel_smithing.json
 9a82236ba955f16b57f78bf31f7dfaf3f3e6e5ba data\echoes-of-the-depths\recipe\resonite_from_smelting_resonite_ore.json
 b98f87df5fd9aac343f94625892dab35403062ec data\echoes-of-the-depths\recipe\resonite_pickaxe_smithing.json
+099fe2f17e9bbe9e6aaea2c17edc0bc5b5e0d567 data\echoes-of-the-depths\advancement\recipes\misc\resonite_shovel_smithing.json
 d6e8a038614e8775b3a6baf8589114eab821eb54 data\echoes-of-the-depths\advancement\recipes\misc\resonite_from_blasting_resonite.json
 289300112d0fa098d2d940d33b3b127471fac399 data\echoes-of-the-depths\recipe\resonite_from_blasting_resonite.json
 d6ddcc0449bb9abffba7d7ec4605bb5c764858b8 data\echoes-of-the-depths\advancement\recipes\misc\resonite_sword_smithing.json

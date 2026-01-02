@@ -1,6 +1,7 @@
 {
   "block.echoes-of-the-depths.resonite_ore": "Resonite Ore",
-
+  "block.echoes-of-the-depths.sculk_fungus_block": "Sculk Fungus Block",
+  "block.echoes-of-the-depths.resonite_crystal": "Resonite Crystal",
 
   "item.echoes-of-the-depths.bone_upgrade_template": "Bone Upgrade Template",
   "item.echoes-of-the-depths.resonite": "Resonite",
@@ -8,6 +9,7 @@
   "item.echoes-of-the-depths.resonite_sword": "Resonite Sword",
   "item.echoes-of-the-depths.resonite_pickaxe": "Resonite Pickaxe",
   "item.echoes-of-the-depths.resonite_axe": "Resonite Axe",
+  "item.echoes-of-the-depths.resonite_shovel": "Resonite Shovel",
 
   "item.echoes-of-the-depths.smithing_template.bone_upgrade.additions_slot_description": "Add Resonite",
   "item.echoes-of-the-depths.smithing_template.bone_upgrade.applies_to": "Diamond Equipment",
