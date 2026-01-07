@@ -1,3 +1,7 @@
-// 1.21	2025-12-24T12:38:48.9471819	Echoes of the Depths/
+// 1.21	2026-01-07T14:24:01.652192	Echoes of the Depths/
+c4e143e42d681b63b67da70581f4fcac9694d648 data\echoes-of-the-depths\worldgen\configured_feature\large_crystal.json
+49c6a3616cfa67f978e3adbfab33d1830ce76adc data\echoes-of-the-depths\worldgen\placed_feature\huge_sculk_fungus_placed.json
 ed59fd3125e0689af46c4c15e2967a0b495c6707 data\echoes-of-the-depths\worldgen\configured_feature\resonite_ore.json
 392fb07e3a4c85d19139b6b73015709549932652 data\echoes-of-the-depths\worldgen\placed_feature\resonite_ore_placed.json
+191ece40f6d31d80ab8d36093d4d3f4151dcef90 data\echoes-of-the-depths\worldgen\configured_feature\huge_sculk_fungus.json
+84e9e4ddb8d567137f9772d54f4cf45286d68453 data\echoes-of-the-depths\worldgen\placed_feature\large_crystal_placed.json
