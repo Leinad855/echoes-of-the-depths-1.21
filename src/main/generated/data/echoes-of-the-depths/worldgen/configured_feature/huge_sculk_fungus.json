@@ -1,0 +1,26 @@
+{
+  "type": "echoes-of-the-depths:huge_sculk_fungus",
+  "config": {
+    "cap_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "echoes-of-the-depths:sculk_fungus_block"
+      }
+    },
+    "foliage_radius": 2,
+    "stem_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mushroom_stem",
+        "Properties": {
+          "down": "true",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-// 1.21	2026-01-07T14:24:01.6496467	Echoes of the Depths/Model Definitions
+// 1.21	2026-01-08T18:57:09.4790375	Echoes of the Depths/Model Definitions
 1d9b2a9e6bc52564019eb84ac9f9f2f72e2b2e9e assets\echoes-of-the-depths\models\block\resonite_crystal.json
 a7fcd197a16090e8fa508c2cf4173294ddbcd1f3 assets\echoes-of-the-depths\blockstates\resonite_crystal.json
 2c83e432d9a4e48eef81e50906d64849c7e3ff16 assets\echoes-of-the-depths\models\item\resonite_crystal.json
@@ -7,6 +7,7 @@ a7fcd197a16090e8fa508c2cf4173294ddbcd1f3 assets\echoes-of-the-depths\blockstates
 cbfdd72821aea4a93506c2934507cb5902a3ed40 assets\echoes-of-the-depths\models\block\sculk_fungus_block.json
 ea98eb25255dff56de6ec0c96874b440f120236b assets\echoes-of-the-depths\blockstates\resonite_ore.json
 5560889e0047dac9df748a11119c018ef6d7bdc0 assets\echoes-of-the-depths\models\item\bone_upgrade_template.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets\echoes-of-the-depths\models\item\mantis_spawn_egg.json
 a315dd2ff5f2998733b67f1aba3fe7f2bef0fa31 assets\echoes-of-the-depths\models\item\resonite.json
 5d1810f0201b72618e631f608c899e0c0b8e9e7f assets\echoes-of-the-depths\models\block\resonite_ore.json
 efae557f8460b1ea16058d7c007b67e97053fbfd assets\echoes-of-the-depths\models\item\sculk_fungus_block.json

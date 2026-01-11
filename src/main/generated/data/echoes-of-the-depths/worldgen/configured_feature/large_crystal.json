@@ -1,0 +1,9 @@
+{
+  "type": "echoes-of-the-depths:large_crystal",
+  "config": {
+    "direction": "up",
+    "max_height": 20,
+    "min_height": 10,
+    "radius": 4
+  }
+}

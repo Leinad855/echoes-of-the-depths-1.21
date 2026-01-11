@@ -6,6 +6,7 @@ import net.leinad.echoesofthedepths.Item.custom.ResoniteAxeItem;
 import net.leinad.echoesofthedepths.Item.custom.ResonitePickaxeItem;
 import net.leinad.echoesofthedepths.Item.custom.ResoniteShovelItem;
 import net.leinad.echoesofthedepths.Item.custom.ResoniteSwordItem;
+import net.leinad.echoesofthedepths.entity.ModEntities;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -53,6 +54,9 @@ public class ModItems {
     public static final Item RESONITE_SHOVEL = registerItem("resonite_shovel",
             new ResoniteShovelItem(ModToolMaterials.RESONITE, new Item.Settings()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.RESONITE, 1.5f, -3.0F))));
+
+    public static final Item MANTIS_SPAWN_EGG = registerItem("mantis_spawn_egg",
+            new SpawnEggItem(ModEntities.MANTIS, 0x9dc783, 0xbfaf5f, new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item){

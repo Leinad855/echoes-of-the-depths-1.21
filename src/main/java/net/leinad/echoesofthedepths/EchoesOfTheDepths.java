@@ -4,10 +4,13 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.leinad.echoesofthedepths.Item.ModItemGroups;
 import net.leinad.echoesofthedepths.Item.ModItems;
 import net.leinad.echoesofthedepths.block.ModBlocks;
 import net.leinad.echoesofthedepths.component.ModDataComponentsType;
+import net.leinad.echoesofthedepths.entity.ModEntities;
+import net.leinad.echoesofthedepths.entity.custom.MantisEntity;
 import net.leinad.echoesofthedepths.util.ResoniteAxeAbilityEvent;
 import net.leinad.echoesofthedepths.util.ResonitePickaxeAbilityEvent;
 import net.leinad.echoesofthedepths.util.ResoniteShovelAbilityEvent;
@@ -37,6 +40,8 @@ public class EchoesOfTheDepths implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFeatures.register();
+		ModEntities.registerModEntities();
 
 		ModDataComponentsType.registerDataComponentTypes();
 
@@ -45,7 +50,8 @@ public class EchoesOfTheDepths implements ModInitializer {
 		PlayerBlockBreakEvents.BEFORE.register(new ResoniteShovelAbilityEvent());
 
 		ModWorldGeneration.generateModWorldGen();
-		ModFeatures.register();
+
+		FabricDefaultAttributeRegistry.register(ModEntities.MANTIS, MantisEntity.createAttributes());
 	}
 
 

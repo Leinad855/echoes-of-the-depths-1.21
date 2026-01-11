@@ -22,6 +22,7 @@ public class ModItemGroups {
                       entries.add(ModItems.RESONITE_PICKAXE);
                       entries.add(ModItems.RESONITE_AXE);
                       entries.add(ModItems.RESONITE_SHOVEL);
+                      entries.add(ModItems.MANTIS_SPAWN_EGG);
                     })
                     .build());
 
