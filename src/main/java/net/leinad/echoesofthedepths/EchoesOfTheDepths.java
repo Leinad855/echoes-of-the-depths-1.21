@@ -11,6 +11,7 @@ import net.leinad.echoesofthedepths.block.ModBlocks;
 import net.leinad.echoesofthedepths.component.ModDataComponentsType;
 import net.leinad.echoesofthedepths.entity.ModEntities;
 import net.leinad.echoesofthedepths.entity.custom.MantisEntity;
+import net.leinad.echoesofthedepths.entity.custom.SculkMushroomEnemyEntity;
 import net.leinad.echoesofthedepths.util.ResoniteAxeAbilityEvent;
 import net.leinad.echoesofthedepths.util.ResonitePickaxeAbilityEvent;
 import net.leinad.echoesofthedepths.util.ResoniteShovelAbilityEvent;
@@ -52,6 +53,7 @@ public class EchoesOfTheDepths implements ModInitializer {
 		ModWorldGeneration.generateModWorldGen();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.MANTIS, MantisEntity.createAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.SCULK_MUSHROOM_ENEMY, SculkMushroomEnemyEntity.createAttributes());
 	}
 
 

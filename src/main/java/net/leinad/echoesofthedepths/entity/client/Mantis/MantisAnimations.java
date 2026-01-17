@@ -1,4 +1,4 @@
-package net.leinad.echoesofthedepths.entity.client;
+package net.leinad.echoesofthedepths.entity.client.Mantis;
 
 import net.minecraft.client.render.entity.animation.Animation;
 import net.minecraft.client.render.entity.animation.AnimationHelper;

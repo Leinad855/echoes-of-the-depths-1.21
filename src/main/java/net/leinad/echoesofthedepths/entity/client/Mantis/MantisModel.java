@@ -1,4 +1,4 @@
-package net.leinad.echoesofthedepths.entity.client;
+package net.leinad.echoesofthedepths.entity.client.Mantis;
 
 import net.leinad.echoesofthedepths.EchoesOfTheDepths;
 import net.leinad.echoesofthedepths.entity.custom.MantisEntity;
@@ -7,7 +7,6 @@ import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.Entity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 

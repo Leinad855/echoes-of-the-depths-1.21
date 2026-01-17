@@ -58,6 +58,8 @@ public class ModItems {
     public static final Item MANTIS_SPAWN_EGG = registerItem("mantis_spawn_egg",
             new SpawnEggItem(ModEntities.MANTIS, 0x9dc783, 0xbfaf5f, new Item.Settings()));
 
+    public static final Item SCULK_MUSHROOM_ENEMY_SPAWN_EGG = registerItem("sculk_mushroom_enemy_spawn_egg",
+            new SpawnEggItem(ModEntities.SCULK_MUSHROOM_ENEMY, 0x035259, 0x61c3cb, new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(EchoesOfTheDepths.MOD_ID, name), item);

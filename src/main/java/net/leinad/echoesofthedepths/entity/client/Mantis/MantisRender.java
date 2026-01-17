@@ -1,4 +1,4 @@
-package net.leinad.echoesofthedepths.entity.client;
+package net.leinad.echoesofthedepths.entity.client.Mantis;
 
 import net.leinad.echoesofthedepths.EchoesOfTheDepths;
 import net.leinad.echoesofthedepths.entity.custom.MantisEntity;

@@ -2,6 +2,7 @@ package net.leinad.echoesofthedepths.entity;
 
 import net.leinad.echoesofthedepths.EchoesOfTheDepths;
 import net.leinad.echoesofthedepths.entity.custom.MantisEntity;
+import net.leinad.echoesofthedepths.entity.custom.SculkMushroomEnemyEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
@@ -13,6 +14,11 @@ public class ModEntities {
             Identifier.of(EchoesOfTheDepths.MOD_ID, "mantis"),
             EntityType.Builder.create(MantisEntity::new, SpawnGroup.CREATURE)
                     .dimensions(1f, 2.5f).build());
+
+    public static final EntityType<SculkMushroomEnemyEntity> SCULK_MUSHROOM_ENEMY =
+            Registry.register(Registries.ENTITY_TYPE, Identifier.of(EchoesOfTheDepths.MOD_ID, "sculk_mushroom_enemy"),
+                    EntityType.Builder.create(SculkMushroomEnemyEntity::new, SpawnGroup.MONSTER)
+                            .dimensions(0.8f, 0.8f).build());
 
 
     public static void registerModEntities() {
